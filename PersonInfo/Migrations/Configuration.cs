@@ -5,6 +5,8 @@ namespace PersonInfo.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
 
     internal sealed class Configuration : DbMigrationsConfiguration<PersonInfo.Models.ApplicationDbContext>
     {
@@ -13,6 +15,23 @@ namespace PersonInfo.Migrations
             AutomaticMigrationsEnabled = false;
         }
 
+        //bool AddUserAndRole(PersonInfo.Models.ApplicationDbContext context)
+        //{
+        //    IdentityResult ir;
+        //    var rm = new RoleManager(new RoleStore(context));
+        //    ir = rm.Create(new IdentityRole("canEdit"));
+        //    var um = new UserManager(new UserStore(context));
+        //    var user = new ApplicationUser()
+        //    {
+        //        UserName = "hujunwei0614@gmail.com"
+        //    };
+        //    ir = um.Create(user, "hjw15902902977");
+        //    if (ir.Succeeded == false)
+        //        return ir.Succeeded;
+        //    ir = um.AddToRole(user.Id, "canEdit");
+        //    return ir.Succeeded;
+
+        //}
         protected override void Seed(PersonInfo.Models.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
