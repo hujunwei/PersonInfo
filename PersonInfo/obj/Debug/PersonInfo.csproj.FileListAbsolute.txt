@@ -138,3 +138,4 @@ C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\obj\Debug\PersonInfo.Mig
 C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\obj\Debug\PersonInfo.csproj.GenerateResource.Cache
 C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\obj\Debug\PersonInfo.dll
 C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\obj\Debug\PersonInfo.pdb
+C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\obj\Debug\PersonInfo.Migrations.addNewUser.resources

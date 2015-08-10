@@ -137,3 +137,4 @@ C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\bin\Microsoft.Owin.Secur
 C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\obj\Release\PersonInfo.pdb
+C:\Users\jason_000\Desktop\PersonInfo-master\PersonInfo\obj\Release\PersonInfo.Migrations.addNewUser.resources

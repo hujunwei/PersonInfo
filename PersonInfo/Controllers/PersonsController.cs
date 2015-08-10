@@ -35,6 +35,7 @@ namespace PersonInfo.Controllers
             return View(person);
         }
 
+        [Authorize(Roles = "canEdit")]
         // GET: Persons/Create
         public ActionResult Create()
         {
@@ -46,6 +47,7 @@ namespace PersonInfo.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "canEdit")]
         public ActionResult Create([Bind(Include = "ContactId,Name,Address,City,State,Zip,Email")] Person person)
         {
             if (ModelState.IsValid)
@@ -58,7 +60,9 @@ namespace PersonInfo.Controllers
             return View(person);
         }
 
+
         // GET: Persons/Edit/5
+        [Authorize(Roles = "canEdit")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -90,6 +94,7 @@ namespace PersonInfo.Controllers
         }
 
         // GET: Persons/Delete/5
+        [Authorize(Roles = "canEdit")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
